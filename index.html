@@ -1,48 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio</title>
-   <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventures in Fire Island</title>
+    
+    <style>
+        #gallery ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+    </style>
 </head>
 <body>
-  <nav class="navbar">
-    <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#portfolio">Portfolio</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
 
-  <main class="main-content">
-    <section id="home">
-      <h1>Welcome to My Portfolio</h1>
-      <p>Discover my work and projects below.</p>
-    </section>
+    <header id="hero">
+        <img src="hero-banner.jpg" alt="Fire Island Sunset" width="100%" height="400">
+    </header>
 
-    <section id="portfolio" class="portfolio-container">
-      <article class="portfolio-item">
-        <h3>Project 1</h3>
-        <p>Description of Project 1.</p>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShkITvl_jg6nojlYol3OIoD7VxUMZUc0FtjFtZm1qiDStvroP7sAicV88&s" alt="Project 1">
-      </article>
-      <article class="portfolio-item">
-        <h3>Project 2</h3>
-        <p>Description of Project 2.</p>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuSpigjZEfJnGMTP29C5Bn4PfQFpkINYxCMuE4TaYtaw8XE0xEvH-vJaw&s" alt="Project 2">
-      </article>
-      <article class="portfolio-item">
-        <h3>Project 3</h3>
-        <p>Description of Project 3.</p>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR37c5nAN6UIFMrmxEQOwFCRZoWlM-sJNXoO8-_lzSYqALeAxyteF3Mj-U&s" alt="Project 3">
-      </article>
-    </section>
-  </main>
+    <main>
+        <section id="summary">
+            <h1>My Trip to Fire Island</h1>
+            <p>
+                My recent getaway to Fire Island was absolutely unforgettable. From the pristine, vehicle-free sandy beaches to the historic lighthouse, every moment felt like a peaceful escape from the hustle and bustle of daily life. The highlight of the trip was watching the breathtaking sunset over the ocean and exploring the unique sunken forest ecosystem.
+            </p>
+        </section>
 
-  <footer id="footer">
-    <p>&copy; 2024 My Portfolio. All rights reserved.</p>
-  </footer>
+        <section id="gallery">
+            <h2>Trip Gallery</h2>
+            <ul>
+                <li>
+                    <img src="lighthouse.jpg" alt="The iconic black and white striped Fire Island Lighthouse structure" width="300" height="200">
+                </li>
+                <li>
+                    <img src="sunken-forest.jpg" alt="A rustic wooden boardwalk pathway leading out to the ocean" width="300" height="200">
+                </li>
+                <li>
+                    <img src="beach-sunset.jpg" alt="Beautiful ocean waves washing up along the sandy shoreline" width="300" height="200">
+                </li>
+            </ul>
+        </section>
+
+        <section id="cta">
+            <h2>Start Your Own Journey</h2>
+            <p>Ready to experience the magic of this coastal paradise yourself?</p>
+            <a href="https://nps.gov" target="_blank">Plan your National Park adventure today!</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Travel Blog. All rights reserved.</p>
+    </footer>
+
 </body>
 </html>
